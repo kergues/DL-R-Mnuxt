@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="indigo darken-1" padless>
+  <v-footer color="grey darken-3" padless>
     <v-row justify="center" no-gutters>
       <v-btn
         v-for="item in items"
@@ -11,8 +11,8 @@
       >
         {{ item }}
       </v-btn>
-      <v-col class="indigo darken-4 py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      <v-col class="grey darken-4 py-4 text-center white--text" cols="12">
+        {{ new Date().getFullYear() }} — <strong>Rick & Morty</strong>
       </v-col>
     </v-row>
   </v-footer>
@@ -21,7 +21,7 @@
 <script>
 export default {
   data: () => ({
-    items: ["Welcome", "Eventos", "Lista"]
+    items: ["Welcome", "Origen", "Lista"]
   })
 };
 </script>

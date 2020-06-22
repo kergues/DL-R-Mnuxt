@@ -99,8 +99,8 @@ export default {
         },
         {
           icon: 'mdi-tooltip-outline',
-          title: 'Eventos',
-          to: '/events'
+          title: 'Origen',
+          to: '/origen'
         },
         {
           icon: 'mdi-format-list-bulleted',
